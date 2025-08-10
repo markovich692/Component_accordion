@@ -25,14 +25,16 @@ body {
 
 .accordion {
   background-color: lightblue;
-  padding: 7rem;
-  max-width: 90rem;
+  padding: 5rem 15rem;
+  max-width: 120rem;
   min-width: 70rem;
+  border-radius: 2%;
 }
 
 .accordion__components {
   background-color: lightgreen;
   padding: 2rem 3rem;
+  margin: 0 auto;
 }
 
 .accordion__content-list {
