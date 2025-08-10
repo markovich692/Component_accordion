@@ -16,8 +16,30 @@ body {
   font-size: 1.6rem;
   font-family: Inter sans-serif;
   font-weight: 700;
+  line-height: 1.7;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.accordion {
+  background-color: lightblue;
+  padding: 7rem;
+  max-width: 90rem;
+  min-width: 70rem;
+}
+
+.accordion__components {
+  background-color: lightgreen;
+  padding: 2rem 3rem;
+}
+
+.accordion__content-list {
+  list-style: none;
+}
+
+/* ICON */
 .icon-down {
   width: 20px;
   height: 20px;
