@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accordion component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
     <div class="header">
-      <h1 class="header__title">Accordion</h1>
+      <h1 class="header__title">Accordion component</h1>
 
       <p class="header__paragraph">
         Vestibulum odio sapien, feugiat eu urna at, tincidunt efficitur dui.
@@ -20,6 +27,7 @@
 
     <div class="accordion__content">
       <ul class="accordion__content-list">
+        <!--FIRST-->
         <li class="list-element__content">
           <div class="list-element__main">
             <h2 class="list-element__title">Lorem ipsum dolor sit amet</h2>
@@ -30,22 +38,80 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-6 close"
+              class="size-6 icon-down"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                33
               />
             </svg>
           </div>
 
-          <p class="list-element__text hidden visible">
+          <p class="list-element__text hidden">
             Nunc sit amet augue sed nisi tristique porta. Suspendisse congue
             quis dolor tempor fermentum. Orci varius natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus mus. Donec quis dignissim
-            mauris.
+            dis parturient montes, nascetur ridiculus mus.
+          </p>
+        </li>
+
+        <!--SECOND-->
+        <li class="list-element__content">
+          <div class="list-element__main">
+            <h2 class="list-element__title">
+              Lorem ed non egestas justo. Nullam non
+            </h2>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 icon-down"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+
+          <p class="list-element__text hidden">
+            consequat, a laoreet sem pretium. In sit amet diam in lectus blandit
+            euismod vitae non odio. Mauris mattis nisl ac dui auctor sagittis.
+            In congue velit sit amet sagittis commodo.
+          </p>
+        </li>
+
+        <!--THIRD-->
+        <li class="list-element__content">
+          <div class="list-element__main">
+            <h2 class="list-element__title">
+              Praesent iaculis venenatis ipsum
+            </h2>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 icon-down"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+
+          <p class="list-element__text hidden">
+            Curabitur sollicitudin massa lobortis, consectetur neque vel,
+            consequat elit. Aliquam arcu nibh, malesuada et tincidunt nec,
+            suscipit tincidunt dolor. Class aptent taciti sociosqu.
           </p>
         </li>
       </ul>
