@@ -35,10 +35,11 @@ body {
 
 .heading {
   display: inline-block;
-  display: flex;
+  text-align: center;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .heading__title {
