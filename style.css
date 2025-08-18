@@ -37,6 +37,13 @@ body {
   background-color: lightblue;
 }
 
+.list-element__main {
+  display: flex;
+
+  justify-items: center;
+  align-items: center;
+}
+
 /* ICON */
 .icon-down {
   width: 20px;
