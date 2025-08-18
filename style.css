@@ -12,58 +12,29 @@ html {
 }
 
 body {
-  height: 100vh;
   font-size: 1.7rem;
-  font-family: Inter sans-serif;
-  font-weight: 700;
-  line-height: 1.7;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
   background-color: orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
   max-width: 120rem;
-  background-color: lightblue;
-  border-radius: 2%;
-  padding: 5rem 10rem;
-}
-
-.accordion__components {
+  background-color: greenyellow;
+  margin: 10rem auto;
+  padding: 2rem;
 }
 
 .heading {
-  display: inline-block;
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-}
-
-.heading__title {
-  font-size: 3rem;
-  font-weight: 400;
-}
-
-.heading__paragraph {
-  font-size: 1.4rem;
-  font-weight: 200;
+  margin-bottom: 2rem;
 }
 
 .accordion__content-list {
   list-style: none;
-}
-
-.list-element__title {
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.list-element__text {
-  font-size: 1.6rem;
-  font-weight: 400;
+  padding: 2rem 2rem;
+  background-color: lightblue;
 }
 
 /* ICON */
