@@ -16,12 +16,12 @@ body {
   font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .container {
   max-width: 120rem;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   margin: 10rem auto;
   padding: 2rem;
 }
@@ -34,7 +34,7 @@ body {
 .accordion__content-list {
   list-style: none;
   padding: 2rem 2rem;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .list-element__main {
@@ -43,8 +43,18 @@ body {
   align-items: center;
 }
 
+.list-element__title {
+  background-color: yellowgreen;
+}
+
 /* ICON */
+.icon__box {
+  background-color: red;
+  width: 4rem;
+  align-self: stretch;
+}
+
 .icon-down {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
