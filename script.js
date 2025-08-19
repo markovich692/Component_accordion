@@ -1,5 +1,2 @@
-//Select Elements
-const icon = document.querySelector(".icon-down");
-const listText = document.querySelector("list-element__text");
-
-//
+const icons = document.querySelectorAll(".icon-down");
+const listText = document.querySelectorAll("list-element__text");
