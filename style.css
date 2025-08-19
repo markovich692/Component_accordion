@@ -44,14 +44,13 @@ body {
 }
 
 .list-element__title {
-  background-color: yellowgreen;
+  font-size: 2rem;
 }
 
 /* ICON */
 .icon__box {
-  background-color: red;
   width: 4rem;
-  align-self: stretch;
+  padding-top: 0.9rem;
 }
 
 .icon-down {
