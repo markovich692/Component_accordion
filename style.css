@@ -16,11 +16,11 @@ body {
   font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  /* background-color: orange; */
+  background-color: orange;
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 75rem;
   /* background-color: greenyellow; */
   margin: 10rem auto;
   padding: 2rem;
