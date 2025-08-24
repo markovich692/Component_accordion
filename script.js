@@ -1,5 +1,5 @@
 const icons = document.querySelectorAll(".icon-down");
-const listText = document.querySelectorAll(".list-element__text");
+const listTexts = document.querySelectorAll(".list-element__text");
 
 icons.forEach(function (icon) {
   icon.addEventListener("click", function (event) {
