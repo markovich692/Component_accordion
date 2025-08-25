@@ -1,4 +1,4 @@
-const icons = document.querySelectorAll(".icon-down");
+const icons = document.querySelectorAll(".icon-up");
 const listTexts = document.querySelectorAll(".list-element__text");
 
 icons.forEach(function (icon) {
