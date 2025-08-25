@@ -5,7 +5,10 @@ icons.forEach(function (icon) {
   icon.addEventListener("click", function (event) {
     if (!event.target) return;
     const iconID = event.target.dataset.iconId;
-    const textID = event.target.dataset.textId;
+
+    listTexts.forEach(function (text) {
+      const textID = text.dataset.textId;
+    });
 
     icon.classList.toggle("icon-up");
     icon.classList.toggle("icon-down");
