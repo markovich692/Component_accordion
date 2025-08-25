@@ -62,3 +62,7 @@ body {
   height: 20px;
   transform: rotate(180deg);
 }
+
+.hidden {
+  display: none;
+}
