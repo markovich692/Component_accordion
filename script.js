@@ -10,6 +10,10 @@ icons.forEach(function (icon) {
 
     listTexts.forEach(function (text) {
       const textID = text.dataset.textId;
+
+      if (iconID === textID) {
+        text.classList.toggle("hidden");
+      }
     });
   });
 });
